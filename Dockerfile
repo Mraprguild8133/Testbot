@@ -21,9 +21,6 @@ RUN pip install --no-cache-dir .
 # Copy application code
 COPY . .
 
-# Create necessary directories
-RUN mkdir -p templates static logs
-
 # Set permissions
 RUN chmod +x main.py
 
