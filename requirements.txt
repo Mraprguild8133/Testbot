@@ -1,9 +1,55 @@
-Pyrogram==2.0.106
-TgCrypto==1.2.5
-motor==3.3.2
-aiofiles==23.2.1
-dnspython==2.4.2
-psutil==5.9.6
-python-dotenv==1.0.0
-loguru==0.7.2
-async-timeout==4.0.3
+# Core Telegram API Framework
+Pyrogram>=2.0.106
+TgCrypto>=1.2.5
+
+# Async MongoDB Driver
+motor>=3.3.2
+
+# File Operations
+aiofiles>=23.2.1
+
+# DNS Resolution
+dnspython>=2.4.2
+
+# System Monitoring
+psutil>=5.9.6
+
+# Async HTTP Client (for API calls)
+httpx>=0.26.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Advanced Logging
+loguru>=0.7.2
+
+# Async Utilities
+async-timeout>=4.0.3
+aiohttp>=3.9.1
+
+# Date/Time Handling
+pytz>=2023.3
+arrow>=1.2.3
+
+# Data Validation & Serialization
+pydantic>=2.5.0
+ujson>=5.8.0
+
+# Caching
+aiocache>=0.12.1
+
+# Rate Limiting
+aiolimiter>=1.1.0
+
+# Optional: Web Server (for health checks)
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Optional: Job Scheduling
+apscheduler>=3.10.4
+
+# Development & Debugging (optional)
+python-telegram-bot>=20.7
+ipython>=8.18.1
+black>=23.11.0
+isort>=5.12.0
